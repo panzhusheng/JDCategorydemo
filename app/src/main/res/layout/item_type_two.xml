@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="@color/flow">
+
+    <com.hjq.shape.view.ShapeButton
+        android:id="@+id/type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:gravity="center"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp"
+        android:text="类型"
+        android:textSize="18sp"
+        app:shape_radius="10dp"
+        app:shape_solidColor="@android:color/transparent"
+        app:shape_strokeColor="@color/common_accent_color"
+        app:shape_strokeSize="1dp"
+        app:shape_textColor="@color/common_accent_color"
+        app:shape_textPressedColor="@android:color/white"
+        app:shape_type="rectangle" />
+</LinearLayout>
