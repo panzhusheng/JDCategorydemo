@@ -10,4 +10,4 @@
 
 本demo的
 
-![输入图片说明](imgdemo.gif)
+![输入图片说明](demo.gif)
